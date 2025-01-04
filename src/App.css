@@ -1,0 +1,10 @@
+#tasks::-webkit-scrollbar {
+    height: 3px; 
+}
+
+#tasks::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #cadf09, #057539); 
+    border-radius: 10px; 
+}
+
+
