@@ -4,7 +4,7 @@ import '../../App.css'
 const Tasklist = () => {
   return (
     <>
-      <div id='tasks' className='flex gap-4 overflow-x-auto  h-[40%] p-2 w-full'> {/* Ensuring horizontal scrolling */}
+      <div id='tasks' className='flex gap-4 overflow-x-auto  h-max--[300px] p-2 w-full'> {/* Ensuring horizontal scrolling */}
         <div className='bg-red-500 p-5 min-w-[350px] rounded-lg'> {/* Added min-width */}
           <div className='flex justify-between items-center pb-4'>
             <h1 className='bg-red-600 p-1 px-4 text-white font-bold rounded-md'>High</h1>

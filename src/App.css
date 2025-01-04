@@ -6,5 +6,8 @@
     background: linear-gradient(to right, #cadf09, #057539); 
     border-radius: 10px; 
 }
+#tasks::-webkit-scrollbar{
+    display: none;
+}
 
 
